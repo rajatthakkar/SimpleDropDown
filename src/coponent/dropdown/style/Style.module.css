@@ -1,0 +1,43 @@
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    background-color: blanchedalmond;
+}
+.list{
+    color: black;
+}
+.dropbtn{
+    width: 25rem;
+    height: 2rem;
+    background: none;
+    border-radius: .5rem;
+    border: 2px solid black; 
+}
+.dropdownBox{
+    display: flex;
+    flex-direction: column;height: inherit;
+    
+}
+.dropdownContent{
+    background-color: white;
+}
+.optBox{
+    height: 3rem;
+    border: 1px solid black;
+    background-color: white;
+}
+.optBox:hover{
+    background-color:aliceblue;
+}
